@@ -9,5 +9,5 @@ This is a FastAPI app for getting the next item in the Fibonacci sequence.
 
 ### Running 
 1. Install dependencies by running `pip install requirements.txt`
-2. Start the server via `uvicorn main:app --reload`
+2. Start the server via `uvicorn app.main:app --reload`
 3. Requests can then be made to `http://127.0.0.1:8000/fib/{num}`
