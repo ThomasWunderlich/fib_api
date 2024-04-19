@@ -15,7 +15,7 @@ def fib_seq_check(num: int):
         message = calc_next_fib(num)
     else:
         message = "not a Fibonacci number."
-    return {"message": message}
+    return message
 
 # Apparently, the fibbonaci sequence has a nice mathematical property to determine whether a number is part of the
 # sequence.
