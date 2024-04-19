@@ -30,6 +30,7 @@ def is_fibbonaci(num: int) -> bool:
     return is_perfect_square(5 * num * num + 4) or is_perfect_square(5 * num * num - 4)
 
 
+# unsurprisingly, there's a similar mathematical property for calculating the next item in the fib seq
 def calc_next_fib(num: int) -> int:
-    return 2
+    return round(num * (1 + m.sqrt(5)) / 2.0)
 
